@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Aventura Eldoria</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="./img/cenario-passo0.png" alt="">
+            <p>Alex, um jovem arqueólogo, encontra uma carta antiga numa biblioteca abandonada. A carta descreve a
+                localização de uma cidade perdida chamada Eldoria, cheia de riquezas e segredos.</p> <button
+                class="btn-proximo" data-proximo="1">Ler a carta</button> <button class="btn-proximo"
+                data-proximo="2">Ignorar a carta</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Alex lê a carta e descobre um enigma: "Na floresta onde o sol se põe, a trilha de pedras lhe guiará até o
+                portal escondido. Siga o caminho, mas cuidado com as armadilhas do tempo."</p> <button
+                class="btn-proximo" data-proximo="3">Decifrar o enigma sozinho</button> <button class="btn-proximo"
+                data-proximo="4">Procurar ajuda para resolver o enigma</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Alex decide ignorar a carta e continuar com sua vida. No entanto, ele sente uma sensação de perda, como
+                se tivesse deixado passar uma grande oportunidade.</p> <button class="btn-proximo"
+                data-proximo="5">Voltar para a biblioteca e pegar a carta</button> <button class="btn-proximo"
+                data-proximo="6">Continuar ignorando a carta e seguir com sua vida</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Alex trabalha arduamente para decifrar o enigma e, após horas de estudo, ele descobre que a entrada da
+                floresta onde o sol se põe está localizada numa área remota.</p> <button class="btn-proximo"
+                data-proximo="7">Ir imediatamente para a floresta</button> <button class="btn-proximo"
+                data-proximo="8">Planejar a viagem e se preparar melhor</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Alex procura ajuda de um mentor experiente em enigmas antigos. Com a ajuda do mentor, ele consegue
+                decifrar o enigma.</p> <button class="btn-proximo" data-proximo="9">Agradecer o mentor e ir para a
+                floresta</button> <button class="btn-proximo" data-proximo="10">Convidar o mentor para ir junto na
+                aventura</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Alex volta para a biblioteca e pega a carta, decidido a seguir as pistas. Ele lê o enigma novamente.</p>
+            <button class="btn-proximo" data-proximo="3">Decifrar o enigma sozinho</button> <button class="btn-proximo"
+                data-proximo="4">Procurar ajuda para resolver o enigma</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="./img/cenario-passo4-voltar-casa.png" alt="">
+            <p>Alex continua com sua vida, mas o sentimento de ter perdido algo importante o incomoda. Ele nunca mais
+                encontra outra pista sobre Eldoria.</p>
+            <p>Fim da Aventura.</p>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Alex se apressa para chegar à floresta. Ele encontra a trilha de pedras antigas que guia pela floresta.
+            </p> <button class="btn-proximo" data-proximo="11">Seguir a trilha imediatamente</button> <button
+                class="btn-proximo" data-proximo="12">Explorar a área ao redor primeiro</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Alex planeja cuidadosamente sua viagem e se prepara com suprimentos e equipamentos necessários para a
+                aventura.</p> <button class="btn-proximo" data-proximo="7">Ir para a floresta bem preparado</button>
+            <button class="btn-proximo" data-proximo="10">Levar um amigo para ajudar na expedição</button>
+        </div> 
+        <div class="passo" id="passo-9">
+            <p>Alex agradece ao mentor pela ajuda e parte para a floresta. Ele encontra a trilha de pedras antigas que
+                guia pela floresta.</p> <button class="btn-proximo" data-proximo="11">Seguir a trilha
+                imediatamente</button> <button class="btn-proximo" data-proximo="12">Explorar a área ao redor
+                primeiro</button>
+        </div> 
+        <div class="passo" id="passo-10">
+            <p>O mentor aceita o convite e os dois partem juntos para a floresta. Eles encontram a trilha de pedras
+                antigas que guia pela floresta.</p> <button class="btn-proximo" data-proximo="11">Seguir a trilha
+                imediatamente</button> <button class="btn-proximo" data-proximo="12">Explorar a área ao redor
+                primeiro</button>
+        </div> 
+        <div class="passo" id="passo-11">
+            <p>Alex segue a trilha de pedras antigas na floresta, enfrentando perigos e desafios ao longo do caminho.
+            </p> <button class="btn-proximo" data-proximo="13">Continuar seguindo a trilha</button> <button
+                class="btn-proximo" data-proximo="14">Procurar por sinais de armadilhas</button>
+        </div> 
+        <div class="passo" id="passo-12">
+            <p>Alex decide explorar a área ao redor da trilha para se familiarizar com o ambiente. Ele descobre pistas
+                adicionais que podem ajudá-lo.</p> <button class="btn-proximo" data-proximo="13">Voltar à trilha e
+                seguir adiante</button> <button class="btn-proximo" data-proximo="11">Continuar explorando fora da
+                trilha</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Alex continua a seguir a trilha, chegando ao portal escondido, uma antiga estrutura de pedra coberta de
+                vegetação.</p> <button class="btn-proximo" data-proximo="15">Resolver o quebra-cabeça dos símbolos
+                antigos</button> <button class="btn-proximo" data-proximo="16">Tentar forçar a entrada</button>
+        </div>
+        
+        <div class="passo" id="passo-14">
+            <p>Alex encontra sinais de armadilhas e as desativa cuidadosamente. Ele chega ao portal escondido, uma
+                antiga estrutura de pedra coberta de vegetação.</p> <button class="btn-proximo"
+                data-proximo="15">Resolver o quebra-cabeça dos símbolos antigos</button> <button class="btn-proximo"
+                data-proximo="16">Tentar forçar a entrada</button>
+        </div> 
+        <div class="passo" id="passo-15">
+            <p>Alex resolve o quebra-cabeça e o portal se abre, revelando a entrada para Eldoria.</p> <button
+                class="btn-proximo" data-proximo="17">Entrar na cidade perdida de Eldoria</button> <button
+                class="btn-proximo" data-proximo="18">Descansar antes de entrar</button>
+        </div> 
+        <div class="passo" id="passo-16">
+            <p>Alex tenta forçar a entrada, mas aciona uma armadilha e fica ferido.</p> <button class="btn-proximo"
+                data-proximo="15">Tentar resolver o quebra-cabeça dos símbolos antigos</button> <button
+                class="btn-proximo" data-proximo="6">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Alex entra na cidade perdida e encontra ruínas de uma civilização avançada, com templos majestosos e
+                tesouros escondidos.</p> <button class="btn-proximo" data-proximo="19">Explorar os templos</button>
+            <button class="btn-proximo" data-proximo="20">Procurar por tesouros</button>
+        </div> 
+        <div class="passo" id="passo-18">
+            <p>Alex decide descansar antes de entrar na cidade perdida. Durante o descanso, ele é atacado por criaturas
+                selvagens.</p> <button class="btn-proximo" data-proximo="21">Lutar contra as criaturas</button> <button
+                class="btn-proximo" data-proximo="17">Fugir e entrar na cidade rapidamente</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <p>Alex explora os templos da cidade perdida e encontra antigos artefatos e inscrições que revelam segredos
+                da civilização de Eldoria.</p>
+            <p>Fim da Aventura.</p>
+        </div>
+        <div class="passo" id="passo-20">
+            <img src="./img/cenario-passo11-cidade-perdida.png" alt="">
+            <p>Alex procura por tesouros escondidos na cidade de Eldoria e encontra riquezas inimagináveis.</p>
+            <p>Fim da Aventura.</p>
+        </div>
+        <div class="passo" id="passo-21">
+            <p>Alex luta bravamente contra as criaturas selvagens e consegue derrotá-las, mas fica exausto.</p> <button
+                class="btn-proximo" data-proximo="17">Entrar na cidade perdida de Eldoria</button> <button
+                class="btn-proximo" data-proximo="6">Desistir e voltar para casa</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
